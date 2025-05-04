@@ -1,0 +1,103 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #fffffd9c;
+    color: #000;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header {
+    background: #3bc1ff;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+nav a {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+.hero {
+    background: #3bc1ff;
+    padding: 1rem 0;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+.whatsapp-btn {
+    display: inline-block;
+    background: #030000;
+    color: #ffffff;
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+.services, .about, .portfolio, .contact {
+    padding: 4rem 0;
+   text-align:center;
+   
+
+   
+}
+.service {
+    margin-bottom: 2rem;
+}
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+input, textarea {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 0.4rem;
+}
+button {
+    padding: 0.8rem;
+    background: #000;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    border-radius: 0.4rem;
+}
+footer {
+    background: #f2f2f2;
+    padding: 1rem 0;
+    text-align: center;
+}
+.desarrolador{
+    position: absolute;
+    top:  350px;
+    right: 50px;
+    
+
+
+}
