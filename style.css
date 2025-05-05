@@ -93,4 +93,39 @@ footer {
     padding: 1rem 0;
     text-align: center;
 }
+.software-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.software-content p {
+    flex: 1 1 300px;
+    margin-right: 20px;
+}
+
+.software-content img {
+    max-width: 200px;
+    height: auto;
+    flex: 1 1 200px;
+}
+
+@media (max-width: 768px) {
+    .software-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .software-content p {
+        margin-right: 0;
+    }
+
+    .software-content img {
+        margin-top: 15px;
+    }
+}
+
+
 
